@@ -1,0 +1,27 @@
+.input-container {
+    text-align: center; 
+    width: 100%;
+}
+
+.google-place-input {
+    width: 50%;
+    min-width: 280px;
+    height: 2rem; 
+    font-size: 1.5rem; 
+    padding: 0.5rem;
+    border: 1px solid #cccccc;
+}
+
+.pac-container:after {
+    /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
+
+    background-image: none !important;
+    height: 0px;
+}
+
+.goog-logo-link {
+    display:none !important;
+   } 
+    .goog-te-gadget{
+        color: transparent !important;
+    } 
